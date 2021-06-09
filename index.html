@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="HandheldFriendly" content="true">
+    <title>Corona Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cebedaac72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="nav-bar">
+    <div class="nav-logo">
+        
+    </div>
+
+</div>
+<h1 id="heading" class="static"><span class="first"><strong>Corona Tracker</strong></h1>
+<div class="container">
+    <form id="form">
+        <input type="text" id="country-input" placeholder="Enter the name of country" class="country-input">
+        <button class="btn" id="btn">Collect Data</button>
+    </form>
+    <br><br><br><br>
+    <div style="overflow-x:auto;">
+    <table id="table" class="table">
+        <tr>
+            <th>Country</th>
+            <th>New Confirmed</th>
+            <th>Total Confirmed </th></th>
+            <th>New Deaths</th></th>
+            <th>Total Deaths </th></th>
+            <th>New Recovered</th></th>
+            <th>Total Recovered</th></th>
+        </tr>
+        <tr id="first-row">
+            <td><b>World-Wide</td>
+        </tr>
+    </table>
+</div>
+    <canvas id="chart"></canvas>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
